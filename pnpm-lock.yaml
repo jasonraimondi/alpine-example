@@ -12,6 +12,7 @@ specifiers:
   '@angular/platform-browser': ~13.1.0
   '@angular/platform-browser-dynamic': ~13.1.0
   '@angular/router': ~13.1.0
+  '@hitrecord/alpine': 0.5.4
   '@types/jasmine': ~3.10.0
   '@types/node': ^12.11.1
   jasmine-core: ~3.10.0
@@ -20,6 +21,7 @@ specifiers:
   karma-coverage: ~2.1.0
   karma-jasmine: ~4.0.0
   karma-jasmine-html-reporter: ~1.7.0
+  medium-editor: ^5.23.3
   rxjs: ~7.4.0
   tslib: ^2.3.0
   typescript: ~4.5.2
@@ -34,6 +36,8 @@ dependencies:
   '@angular/platform-browser': 13.1.2_500a9672c0d9e2e28977f34ef1b17880
   '@angular/platform-browser-dynamic': 13.1.2_18e6017ca0e4619df13975d8c4e522bf
   '@angular/router': 13.1.2_59483d19dee782e5c394d1bd9501a4b6
+  '@hitrecord/alpine': 0.5.4_7c44c71753a5403f8290b59c4c7fd54a
+  medium-editor: 5.23.3
   rxjs: 7.4.0
   tslib: 2.3.1
   zone.js: 0.11.4
@@ -1610,6 +1614,17 @@ packages:
   /@gar/promisify/1.1.2:
     resolution: {integrity: sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==}
     dev: true
+
+  /@hitrecord/alpine/0.5.4_7c44c71753a5403f8290b59c4c7fd54a:
+    resolution: {integrity: sha512-HtLEk8Hsmxi46Ba+wK9D0P6kPLnfY9lw3Y/CujQ+qvqbAmQWU+3WtsvTpranPYSWpS6A88XlZ56GZnGdmHZtfw==}
+    peerDependencies:
+      '@angular/core': ^12.0.0 || ^13.0.0
+      medium-editor: ^5.23.3
+    dependencies:
+      '@angular/core': 13.1.2_rxjs@7.4.0+zone.js@0.11.4
+      medium-editor: 5.23.3
+      tiny-slider: 2.9.1
+    dev: false
 
   /@istanbuljs/load-nyc-config/1.1.0:
     resolution: {integrity: sha512-VjeHSlIzpv/NyD3N0YuHfXOPDIixcA1q2ZV98wsMqcYlPmv2n3Yb2lYP9XMElnaFVXg5A7YLTeLu6V84uQDjmQ==}
@@ -4437,6 +4452,10 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
+  /medium-editor/5.23.3:
+    resolution: {integrity: sha512-he9/TdjX8f8MGdXGfCs8AllrYnqXJJvjNkDKmPg3aPW/uoIrlRqtkFthrwvmd+u4QyzEiadhCCM0EwTiRdUCJw==}
+    dev: false
+
   /memfs/3.4.1:
     resolution: {integrity: sha512-1c9VPVvW5P7I85c35zAdEr1TD5+F11IToIHIlrVIcflfnzPkJa0ZoYEoEdYDP8KgPFoSZ/opDrUsAoZWym3mtw==}
     engines: {node: '>= 4.0.0'}
@@ -6329,6 +6348,10 @@ packages:
   /thunky/1.1.0:
     resolution: {integrity: sha512-eHY7nBftgThBqOyHGVN+l8gF0BucP09fMo0oO/Lb0w1OF80dJv+lDVpXG60WMQvkcxAkNybKsrEIE3ZtKGmPrA==}
     dev: true
+
+  /tiny-slider/2.9.1:
+    resolution: {integrity: sha512-RcRZCcPD4gzdCvqIx7uhWcpql3Ut2sHnB05V2enQsyoQh5zF9aWlqtfI2huQVryoW1Jucpx7r9kluHCGtqthcg==}
+    dev: false
 
   /tmp/0.0.33:
     resolution: {integrity: sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==}
