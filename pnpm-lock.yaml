@@ -12,7 +12,7 @@ specifiers:
   '@angular/platform-browser': ~13.1.0
   '@angular/platform-browser-dynamic': ~13.1.0
   '@angular/router': ~13.1.0
-  '@hitrecord/alpine': 0.5.4
+  '@hitrecord/alpine': 1.0.0-rc.6
   '@types/jasmine': ~3.10.0
   '@types/node': ^12.11.1
   jasmine-core: ~3.10.0
@@ -36,7 +36,7 @@ dependencies:
   '@angular/platform-browser': 13.1.2_500a9672c0d9e2e28977f34ef1b17880
   '@angular/platform-browser-dynamic': 13.1.2_18e6017ca0e4619df13975d8c4e522bf
   '@angular/router': 13.1.2_59483d19dee782e5c394d1bd9501a4b6
-  '@hitrecord/alpine': 0.5.4_7c44c71753a5403f8290b59c4c7fd54a
+  '@hitrecord/alpine': 1.0.0-rc.6_@angular+core@13.1.2
   medium-editor: 5.23.3
   rxjs: 7.4.0
   tslib: 2.3.1
@@ -1615,15 +1615,14 @@ packages:
     resolution: {integrity: sha512-82cpyJyKRoQoRi+14ibCeGPu0CwypgtBAdBhq1WfvagpCZNKqwXbKwXllYSMG91DhmG4jt9gN8eP6lGOtozuaw==}
     dev: true
 
-  /@hitrecord/alpine/0.5.4_7c44c71753a5403f8290b59c4c7fd54a:
-    resolution: {integrity: sha512-HtLEk8Hsmxi46Ba+wK9D0P6kPLnfY9lw3Y/CujQ+qvqbAmQWU+3WtsvTpranPYSWpS6A88XlZ56GZnGdmHZtfw==}
+  /@hitrecord/alpine/1.0.0-rc.6_@angular+core@13.1.2:
+    resolution: {integrity: sha512-YE/q6BhHQbedbU/OAJK/WRdcvynXcqunfezs+sheOUrnRJXqhppo2jqdMAT29MevCLaAjIGSSIAJVUXjSq6/VQ==}
     peerDependencies:
       '@angular/core': ^12.0.0 || ^13.0.0
-      medium-editor: ^5.23.3
     dependencies:
       '@angular/core': 13.1.2_rxjs@7.4.0+zone.js@0.11.4
-      medium-editor: 5.23.3
       tiny-slider: 2.9.1
+      tslib: 2.3.1
     dev: false
 
   /@istanbuljs/load-nyc-config/1.1.0:
