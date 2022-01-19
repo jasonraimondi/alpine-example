@@ -8,7 +8,7 @@ The Error:
 
 1. Start on the `working-0.5.4` branch
 
-2. `pnpm install && pnpm build`
+2. `pnpm install && pnpm build`, 🎉SUCCESS 🎉!!
 
 3. In `style.scss` note the import line:
 <img width="326" alt="Screen Shot 2022-01-18 at 11 43 22 PM" src="https://user-images.githubusercontent.com/5787967/150086148-2880a544-0d87-4166-8dad-3cec7521430e.png">
@@ -17,7 +17,7 @@ The Error:
 
 4. Change to the `broken-1.0.0` branch
 
-5. `pnpm install && pnpm build`
+5. `pnpm install && pnpm build`, ❗❗ ERROR ❗❗
 
 6. In `style.scss` note the import line:
 <img width="498" alt="Screen Shot 2022-01-18 at 11 42 53 PM" src="https://user-images.githubusercontent.com/5787967/150086215-4a2e4d89-e805-4249-8fc5-d59de4c07b3f.png">
